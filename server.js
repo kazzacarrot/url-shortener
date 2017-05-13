@@ -5,10 +5,10 @@ var randomstring = require("randomstring")
 var express = require("express")
 var app = express();
 var port = process.env.PORT || 8080
-if (process.env.NODE_ENV = "test"){
+if (process.env.NODE_ENV == "test"){
    var host = "http://localhost:" + port + "/";
 }else{
-    "https://fcc-url-shortener-karen.heroku.com/" 
+    "https://fcc-url-shortener-karen.herokuapp.com/" 
 }
 var col = "urlShortener";
 
