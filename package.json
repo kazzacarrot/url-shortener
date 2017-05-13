@@ -1,0 +1,30 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Given a url, create a short-url-code, so the original url can be accessed by host+short-url-code",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --timeout 10000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazzacarrot/url-shortener.git"
+  },
+  "author": "Karen McCulloch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kazzacarrot/url-shortener/issues"
+  },
+  "homepage": "https://github.com/kazzacarrot/url-shortener#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26",
+    "randomstring": "^1.1.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.3.0",
+    "request": "^2.81.0"
+  }
+}
